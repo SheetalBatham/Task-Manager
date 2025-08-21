@@ -71,6 +71,8 @@ Create a .env file in the backend folder:
 PORT=5000
 MONGO_URI=<YOUR_MONGODB_URI>
 JWT_SECRET=<YOUR_SECRET_KEY>
+JWT_EXPIRES_IN=7d
+CLIENT_ORIGIN=http://localhost:3000
 ```
 
 
@@ -93,7 +95,7 @@ npm install
 Create a .env.local file in the frontend folder:
 
 ```bash
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
+NEXT_PUBLIC_API_BASE_URL=http://localhost:5000/api
 ```
 
 
