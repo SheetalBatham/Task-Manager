@@ -61,7 +61,7 @@ cd task-manager
 ### 2. Backend Setup
 
 ```bash
-cd server
+cd server/
 npm install
 ```
 
@@ -88,7 +88,7 @@ The backend server should now be running at http://localhost:5000.
 ### 3. Frontend Setup
 
 ```bash
-cd ../client
+cd client/
 npm install
 ```
 
